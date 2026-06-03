@@ -1,0 +1,37 @@
+/*0selector{
+    property: value;
+}*/
+ h1 {       color: rgb(57, 63, 5);
+            text-align: center;
+        }
+        p{
+            color:blueviolet;
+            font-style:inherit;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight:lighterS;
+            font-size: 20px;
+            text-decoration:double underline;
+
+
+        }
+        a{
+            COLOR: rgb(3, 8, 75);
+            text-decoration: none;
+            font-size: larger;
+        }
+        #text{
+            color: rgb(1, 45, 245);
+            font-style: italic;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            text-decoration: none;
+
+        }
+        .youtube-link{
+            color: rgb(255, 136, 0);
+            text-decoration: none;
+            font-size:larger;
+        }
+        *{
+            background-color: rgb(96, 167, 151);
+        }
