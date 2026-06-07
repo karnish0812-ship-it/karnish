@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    padding: 20vh;
+}
+.link{
+    text-decoration: none;
+    background-color: chartreuse;
+    padding: 10px;
+    border-radius: 20px;
+    color: blueviolet;
+}
+.link:hover{
+    color: cadetblue;
+    background-color: black;
+    cursor: pointer;
+}

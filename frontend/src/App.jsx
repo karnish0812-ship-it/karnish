@@ -5,18 +5,23 @@ import Contact from'./pages/Contact'
 import Service from'./pages/Service'
 import Navbar from './pages/Navbar'
 import Counter from './components/Counter'
+import { Routes,Route } from 'react-router-dom'
+import Effect from './components/Effect'
 const App = ()=>{
   return(
  <>
  <Navbar/>
- <h1>hello word  </h1>
- <h1>hello word  </h1>
- <Parent/> 
- <Home/>
- <About/>
- <Contact/>
- <Service/>
- <Counter/>
+ <Routes>
+  <Route path='/' element={<Home/>}/>
+  <Route path='/about' element={<About/>}/>
+  <Route path='/contact' element={<Contact/>}/>
+  <Route path='/service' element={<Service/>}/>
+  <Route path='/parent' element={(<Parent/>)}/>
+   <Route path='/useState' element={(<Counter/>)}/>
+   <Route path='/useEffect' element={(<Effect/>)}/>
+
+ </Routes>
+ 
  </>
   )
 }
